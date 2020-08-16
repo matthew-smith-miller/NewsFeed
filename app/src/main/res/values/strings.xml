@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Guardian Newsfeed</string>
+    <string name="settings">Settings</string>
+    <string name="empty_no_content_found">No news items found; please try again</string>
+    <string name="empty_no_internet_connection">No internet connection :(</string>
+
+    <string name="settings_number_label">Number</string>
+    <string name="settings_number_key" translatable="false">number</string>
+    <string name="settings_number_default" translatable="false">0</string>
+
+    <string name="settings_section_filter_label">Filter by Section</string>
+    <string name="settings_section_filter_key" translatable="false">section_filter</string>
+    <string name="settings_section_filter_default" translatable="false">all</string>
+
+    <string name="settings_section_filter_all_label">All</string>
+    <string name="settings_section_filter_all_value" translatable="false">all</string>
+    <string name="settings_section_filter_art_label">Art and Design</string>
+    <string name="settings_section_filter_art_value" translatable="false">artanddesign</string>
+    <string name="settings_section_filter_business_label">Business</string>
+    <string name="settings_section_filter_business_value" translatable="false">business</string>
+    <string name="settings_section_filter_environment_label">Environment</string>
+    <string name="settings_section_filter_environment_value" translatable="false">environment</string>
+    <string name="settings_section_filter_food_label">Food</string>
+    <string name="settings_section_filter_food_value" translatable="false">food</string>
+    <string name="settings_section_filter_opinion_label">Opinion</string>
+    <string name="settings_section_filter_opinion_value" translatable="false">commentisfree</string>
+    <string name="settings_section_filter_politics_label">Politics</string>
+    <string name="settings_section_filter_politics_value" translatable="false">politics</string>
+    <string name="settings_section_filter_science_label">Science</string>
+    <string name="settings_section_filter_science_value" translatable="false">science</string>
+    <string name="settings_section_filter_sport_label">Sport</string>
+    <string name="settings_section_filter_sport_value" translatable="false">sport</string>
+    <string name="settings_section_filter_world_label">World News</string>
+    <string name="settings_section_filter_world_value" translatable="false">world</string>
+
+
+    <!--Query params and values-->
+    <string name="query_format_key">format</string>
+    <string name="query_format_value">json</string>
+    <string name="query_api_key_key">api-key</string>
+    <string name="query_api_key_value">test</string>
+    <string name="query_show_fields_key">show-fields</string>
+    <string name="query_show_fields_value">bodyText,byline,thumbnail,trailText,wordcount</string>
+    <string name="query_show_tags_key">show-tags</string>
+    <string name="query_show_tags_value">keyword</string>
+    <string name="query_section_key">section</string>
+
+</resources>

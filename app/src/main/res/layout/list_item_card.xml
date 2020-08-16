@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/CardTextMargin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@color/colorLightGray">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/colorPrimaryDark"
+            android:scaleType="centerCrop"
+            android:layout_below="@id/accent_color_bar"/>
+
+        <TextView
+            android:id="@+id/web_title"
+            style="@style/HeadlineText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/list_image"
+            android:layout_marginLeft="@dimen/CardTextMargin"
+            android:layout_marginTop="@dimen/CardTextMargin"
+            android:layout_marginRight="@dimen/CardTextMargin"
+            android:ellipsize="end"
+            android:maxLines="3"
+            tools:text="Man Recognizes Lost Pet Goat After Years And Somehow That Goat Is the Prime Minister of the UK" />
+
+        <TextView
+            android:id="@+id/web_publishing_date"
+            style="@style/DateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/body"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/CardTextMargin"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="@dimen/CardTextMargin"
+            tools:text="August 3, 2020" />
+
+        <TextView
+            android:id="@+id/section_name"
+            style="@style/SectionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/web_publishing_date"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            tools:text="World news" />
+        <TextView
+            android:id="@+id/byline"
+            style="@style/DateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/web_title"
+            android:layout_marginLeft="@dimen/CardTextMargin"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="@dimen/CardTextMargin"
+            tools:text="by Matt Miller" />
+
+        <TextView
+            android:id="@+id/body"
+            style="@style/BodyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/byline"
+            android:layout_marginLeft="@dimen/CardTextMargin"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="@dimen/CardTextMargin"
+            android:ellipsize="end"
+            android:maxLines="5"
+            tools:text="Thundercats literally YOLO cornhole fixie narwhal shaman yr jean shorts fam. Fixie cliche distillery godard, biodiesel put a bird on it bicycle rights twee williamsburg humblebrag flannel edison bulb portland coloring book." />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="9dp"
+            android:background="@color/colorAccent"
+            android:id="@+id/accent_color_bar"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
